@@ -23,6 +23,7 @@ There are three classifiers chosen for this problem:
   * Logistic Regression (LR)
   * Stochastic Gradient Descent (SGD)
   * Multinomial Naive Bayes (MNB)
+  
 I decided to combine these three by using the majority voting ensemble, and give them weights as the following based on performance:
   * LR - 2
   * SGD - 3 
