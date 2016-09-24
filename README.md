@@ -23,7 +23,7 @@ There are three classifiers chosen for this problem:
   * Logistic Regression (LR)
   * Stochastic Gradient Descent (SGD)
   * Multinomial Naive Bayes (MNB)
-  
+
 I decided to combine these three by using the majority voting ensemble, and give them weights as the following based on performance:
   * LR - 2
   * SGD - 3 
@@ -31,6 +31,7 @@ I decided to combine these three by using the majority voting ensemble, and give
 
 ## Result
 The Kaggle results obtained ast listed as followed:
+ 
   *Ensemble - 0.95966
   *SGD - 0.95929
   *LR - 0.95920
